@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<!------------------------------HEAD------------------------------------------------>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+		body {
+		background-color: #f1faee;
+		}
+	</style>
+	
+</head>
+
+<!----------------------------BODY---------------------------------------------->
+<body>
+	<!--Header section-->
+	<header class="background">
+		<a href="index.html"><img src="Images/Logo.png" alt = "Walks & Waterfalls logo"></a>
+		
+		<!--------------NAVIGATION MENU---------------------------->
+		
+		<div class="nav-container">
+		
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="jobsearch.html" class ="active">Job Search</a></li>
+					<li><a href="profile.html">Profile</a></li>
+					<li><a href="contactus.html">Contact Us</a></li>		
+						
+				</ul>
+			</nav>			
+		</div>
+	
+	</header>
+	
+<!--------------------------------------MAIN CONTENT SECTION----------------------->
+<main>
+<br>
+		
+	<section>
+		
+		<div class = "parent">
+			
+			<div class="container">
+			  <form action="/action_page.php">
+				<label for="what">What</label>
+				<input type="text" id="what" name="what" placeholder="Enter Keywords">
+
+				<label for="where">Where</label>
+				<input type="text" id="where" name="where" placeholder="Enter Suburb, Town or City" required>
+				
+		
+					
+					<label for="Listed">Listed</label>
+					<select id="Listed" name="Listed"> 
+					  <option value="Any Time">Any Time</option>
+					  <option value="Today">Today</option>
+					  <option value="Last 3 Days">Last 3 Days</option>
+					  <option value="Last 7 Days">Last 7 Days</option>
+					  <option value="Last 14 Days">Last 14 Days</option>
+					  <option value="Last 30 Days">Last 30 days</option> 
+					</select>
+				
+			</div>
+		
+		
+			<div class = "cv-image">
+				<img src = "Images/Icons/cvmaker1.png" class = "pointer" height="245px">
+			</div>
+ 
+		</div>
+		
+			<div class="container">
+			
+			
+					<label for="Work Types">Work Types</label>
+					<select id="Work Types" name="Work Types"> 
+					  <option value="All Work Types">All Work Types</option>
+					  <option value="Full Time">Full Time</option>
+					  <option value="Part Time">Part Time</option>
+					  <option value="Contract/Temp">Contract/Temp</option>
+					  <option value="Casual/Vacation">Casual/Vacation</option>
+					  <option value="Seasonal">Seasonal</option> 
+					</select>
+					
+					
+				<label for="jobs">Classification</label>
+					<select id="jobs" name="jobs"> 
+					  <option value="Any Classification">Any Classification</option>
+					  <option value="Airlines">Airlines</option>
+					  <option value="Bar & Beverage Staff">Bar & Beverage Staff</option>
+					  <option value="Chefs/Cooks">Chefs/Cooks</option>
+					  <option value="Front Office & Guest Services">Front Office & Guest Services</option>
+					  <option value="Gaming">Gaming</option> 
+					  <option value="Housekeeping">Housekeeping</option> 
+					  <option value="Kitchen & Sandwich Hands">Kitchen & Sandwich Hands</option> 
+					  <option value="Management">Management</option>
+					  <option value="Reservations">Reservations</option>
+					  <option value="Tour Guides">Tour Guides</option>
+					  <option value="Travel Agents/Consultants">Travel Agents/Consultants</option>
+					  <option value="Waiting Staff">Waiting Staffs</option>
+					  <option value="Other">Other</option>
+					
+					</select>
+
+					<label for="Paying">Paying</label>
+					<select id="Paying" name="Paying"> 
+					  <option value="Any">Any</option>
+					  <option value="HOURLY">HOURLY</option>
+					  <option value="$0">$0</option>
+					  <option value="$15">$15</option>
+					  <option value="$20">$20</option>
+					  <option value="$25">$25</option>
+					  <option value="30">$30</option>
+					  <option value="$35">$35</option>
+					  <option value="$40">$40</option>
+					  <option value="$50">$50</option>
+					  <option value="$60">$60</option>
+					  <option value="$75">$75</option>
+					  <option value="$100">$100</option>
+					  <option value="Salary">SALARY</option>
+					  <option value="$30,000">$30,000</option>
+					  <option value="$40,000">$40,000</option>
+					  <option value="$50,000">$50,000</option>
+					  <option value="$60,000">$60,000</option> 
+					  <option value="$70,000">$70,000</option>
+					  <option value="$80,000">$80,000</option>
+					  <option value="$90,000">$90,000</option>
+					  <option value="$100,000">$100,000</option>
+					  <option value="$120,000">$120,000</option>
+					  <option value="$150,000">$150,000</option>
+					  <option value="$200,000">$200,000</option>
+					  <option value="$200,000+">$200,000+</option>
+					 
+					</select>
+				
+			</div>
+				
+				<br>
+				<br>
+				
+				<input type = "submit" value = "Search Jobs">
+				<input type = "reset" value = "Reset">
+			  
+			  </form>
+
+		
+	</section>
+
+<br>	
+</main>
+	
+<!-------------------FOOTER---------------------->
+	<footer>
+		<p class = "footer">
+			<b>Created by:</b> Nadine Kroll and Nicole Barry-Goss
+			<br>
+		</p>
+	
+		<!-- Logos--->
+		<h3>Like us on Facebook and Instagram to keep up to date with Job Vacancies!</h3>
+			<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+			<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+			
+	</footer>
+	
+</body>
+</html>

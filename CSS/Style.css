@@ -1,0 +1,374 @@
+
+/*----------------------HEADER -------------------------------------*/
+.background {
+	background-color: #a8dadc; 
+	display: grid;
+	grid-template-columns: 1.5fr 5fr;
+}
+
+.nav-container {
+	position: relative;
+	
+}
+
+.nav-container nav {
+	position: absolute;
+	bottom: 10px;
+}
+
+
+/*----------------------NAVIGATION BAR---------------------------*/
+
+header img {
+	display:inline-block;
+    left:10px;
+    top:10px;
+    margin: 0px 15px 15px 0px;
+}
+
+nav {
+	display: inline-block;
+	background-color: #a8dadc;   
+	padding: 10px 10px 10px 10px;
+	overflow: visible;	
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+}
+
+nav ul li {
+	/*float: left;*/
+	display: inline-block; /*inline-block;*/
+	font-family: 'Perpetua', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	vertical-align:bottom;
+    line-height:normal;  	
+}
+
+nav ul li a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;	
+}
+
+.active {
+	color: #f1faee;
+	background-color: #457b9d !important;
+	
+}
+
+nav ul li a:hover:not(.active) {
+	background-color: #457b9d;
+}
+
+/*---------------------GENERAL--------------------------------------*/
+
+/*adjusts width of sections and styling*/
+section {
+	background-color: white;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+/*Adds line spacing to text*/
+section p{
+	line-height: 1.6;
+}
+
+
+/*used to align text or images in center*/
+.center{
+	text-align: center;
+}
+
+
+/*---------------------------HOMEPAGE----------------------------*/
+
+
+/*to center 'About Us' */
+.margins{
+	margin-top: 0px;
+	text-align: center;
+}
+
+
+/*------------------------------HEADINGS/TEXT STYLING-----------------------*/
+
+
+h1 {
+	font-family: 'Arial';
+	font-size: 30px;
+	color: #284C7B;
+	
+}
+
+h2 {
+	font-family: 'Arial';
+	font-size: 20px;
+	color: #284C7B;
+}
+
+
+
+/*Styles Paragraphs*/
+p {
+	font-family: 'Arial';
+	font-size: 15px;
+	text-align: justify;
+}
+
+/*bold and larger text*/
+.pbold {
+	font-family: 'Arial';
+	font-size: 17px;
+	text-align: justify;
+}
+
+/*List items formatting*/
+ul li {
+	font-family: 'Arial';
+	font-size: 15px;
+	text-align: justify;
+	margin-top: 12px;
+}
+	
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*------------------------------------MAPS FORMATTING------------------------------------------------*/
+/*centeres the maps on the page*/
+.maps {
+	text-align: center;
+}
+
+
+
+/*------------------------------------JOB SEARCH PAGE-------------------------------------------------*/
+
+/*input boxes for Keywords & Where -location*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/*input box for Job Listed date selection*/
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/*Search Jobs button styling */
+input[type=submit] {
+  background-color: #e63946;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*Reset search button styling */
+
+input[type=reset] {
+  background-color: #1d3557;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*Change colour on the search button when hovered over*/
+input[type=submit]:hover {
+  background-color: #b61624;
+}
+
+/*Change colour on the search button when hovered over*/
+input[type=reset]:hover {
+  background-color: #0f1c2e;
+}
+
+/*background color for form*/
+.container {
+  
+  background-color: #457B9D;
+  padding: 15px;
+  color: #F1FAEE;
+}
+
+/*allows the image to display on the right of the form*/
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*tidying up the 'CV Maker' image */
+.cv-image {
+	display: block;
+	text-align: center;
+	border: solid 8px #457B9D;
+	background-color:#457B9D;
+	padding: 10px 0px 0px;
+}
+
+/*when hovered over the mouse turns into a pointer*/
+.pointer {cursor: pointer;}
+
+.align-right {
+	text-align: right;
+}
+
+section img {
+	padding: 10px;
+}
+
+
+/*Styling for buttons*/
+button {
+	color: white;
+	background-color: #E63946;
+	border-radius: 12px;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Arial';
+	padding: 10px 20px;
+	cursor: pointer;
+	position: relative;
+	
+}
+
+/*------------------PROFILE PAGE---------------------*/
+
+/*pencil format*/
+.pencil {
+	padding: 0px;
+	height: 20px;
+}
+/*-----------------------FOOTER------------------------------------*/
+
+
+/*aligns the text and email address to the left */
+.footer {
+	font-family: 'Arial';
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+}
+
+/*align the 'follow us on..' text and logos to the center of the footer*/
+footer {
+	text-align: center;
+	background-color: #a8dadc;
+	font-family: 'Arial';
+	padding: 10px;
+	position: relative;
+}
+
+/*Styling for the boxes that the logos are in*/
+.fa {
+  padding: 10px;
+  font-size: 40px !important;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25%;
+  margin: 5px 10px;
+}
+
+/*Makes logos slightly darker when hovered over */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/*Colors for the Facebook logo */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/*Colors for the Instagram logo */
+.fa-instagram {
+  background-image: linear-gradient(to top right, #FFDC80, #FCAF45,  #F77737,  #F56040, #FD1D1D, #E1306C,  #C13584, #833AB4, #5851DB, #405DE6);
+  color: white;
+}
+
+
+
+/*---------------MEDIA---------------*/
+	
+
+/*Make the navbar responsive - vertically displayed*/
+@media screen and (max-width: 600px) {
+		nav {
+		display: contents;
+	}
+}
+	
+/*Make the logo responsive*/
+@media screen and (max-width: 600px) {
+		header img {
+		display: block;
+	}
+}
+
+
+/* Responsive form - when the screen is less than 600px wide, make the Search Jobs and Reset buttons stack on top of each other*/
+@media screen and (max-width: 900px) {
+	form , input[type=submit], input[type=reset] {
+	width: 100%;
+	margin: 5px;
+	}
+}
+	
+/*Responsive form: Image - makes the image responsive*/
+@media screen and (max-width: 900px) {
+  .parent {
+		display: block;
+        width: 100%;
+  }
+}
+	 
+	
+/*Makes media iframes respinsive - e.g maps*/
+@media screen and (max-width: 900px) {
+		iframe {
+		display: block;
+		width: 100%;
+	}
+}
+	
+/*Makes the footer text responsive*/
+@media screen and (max-width: 900px) {
+  .footer {
+		display: contents;
+        width: 100%;
+  }
+}
+
+	
+	
